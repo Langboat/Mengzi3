@@ -1,0 +1,11 @@
+accelerate==0.27.2
+datasets==2.17.1
+deepspeed==0.13.2
+einops==0.7.0
+optimum==1.17.1
+tensorboard==2.16.2
+torch==2.2.1
+torchaudio==2.2.1
+torchvision==0.17.1
+transformers==4.38.1
+gradio==4.19.2
