@@ -46,10 +46,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("Langboat/Mengzi3-13B-Base", use_fast=False, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained("Langboat/Mengzi3-13B-Base", device_map="auto", trust_remote_code=True)
-inputs = tokenizer('介绍一下孟子：', return_tensors='pt')
+inputs = tokenizer('指令：回答以下问题。输入：介绍一下孟子。输出：', return_tensors='pt')
 if torch.cuda.is_available():
     inputs = inputs.to('cuda')
-pred = model.generate(**inputs, max_new_tokens=512, repetition_penalty=1.1, eos_token_id=tokenizer.eos_token_id)
+pred = model.generate(**inputs, max_new_tokens=512, repetition_penalty=1.01, eos_token_id=tokenizer.eos_token_id)
 print(tokenizer.decode(pred[0], skip_special_tokens=True))
 ```
 
