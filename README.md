@@ -9,7 +9,7 @@ Mengzi3
 <p>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/Langboat">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/organization/Langboat">ModelScope</a> |  <a href="https://wisemodel.cn/organization/Langboat">Wisemodel</a> ｜ 💬 <a href="https://github.com/Langboat/Mengzi3/blob/main/assets/wechat.png">WeChat</a> | <a href="https://www.langboat.com/document/mengzi/mengzi-gpt/call">API</a> | <a href="https://www.langboat.com/portal/mengzi-gpt">孟子GPT</a>
+        🤗 <a href="https://huggingface.co/Langboat">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/organization/Langboat">ModelScope</a> | <a href="https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md"><img src="./assets/logo-zh-light.99fc9222.svg" width="50" style="white-space: nowrap;display: inline-block;overflow: hidden;max-width: 100%;"/></a> ｜  <a href="https://wisemodel.cn/organization/Langboat">Wisemodel</a> ｜ 💬 <a href="https://github.com/Langboat/Mengzi3/blob/main/assets/wechat.png">WeChat</a> | <a href="https://www.langboat.com/document/mengzi/mengzi-gpt/call">API</a> | <a href="https://www.langboat.com/portal/mengzi-gpt"><img src="./assets/mengzi_logo.png" width="16" style="white-space: nowrap;display: inline-block;overflow: hidden;max-width: 100%;"/> 孟子GPT</a>
 </p>
 
 # 模型介绍/Introduction
@@ -18,9 +18,9 @@ Mengzi3
 
 The address of the open source Mengzi3 13B series model is as follows:
 
-|    |                                                                                      Mengzi3-13B-Base                                                                                      | Mengzi3-13B-Chat |
-| :-: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: |
-| 13B | [🤗](https://huggingface.co/Langboat/Mengzi3-13B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-13B-Base) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-13B-Base) |     敬请期待     |
+|    |                                                                                                                                   Mengzi3-13B-Base                                                                                                                                   | Mengzi3-13B-Chat |
+| :-: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: |
+| 13B | [🤗](https://huggingface.co/Langboat/Mengzi3-13B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-13B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-13B-Base) |     敬请期待     |
 
 Mengzi3-13B模型基于Llama架构，语料精选自网页、百科、社交、媒体、新闻，以及高质量的开源数据集。通过在万亿tokens上进行多语言语料的继续训练，模型的中文能力突出并且兼顾多语言能力。
 
@@ -32,7 +32,7 @@ Mengzi3-13B is based on the Llama architecture, and the corpus is selected from 
 
 First configure the environment and install the dependencies required by the project
 
-```bash
+```shell
 pip install -r requirements.txt
 ```
 
@@ -57,9 +57,9 @@ print(tokenizer.decode(pred[0], skip_special_tokens=True))
 
 We provide this sample code to perform a single round of interactive reasoning on the base model.
 
-```bash
+```shell
 cd examples
-python examples/base_streaming_gen.py --model model_path --tokenizer tokenizer_path
+python base_streaming_gen.py --model model_path --tokenizer tokenizer_path
 ```
 
 # 性能评测/Evaluation
@@ -114,7 +114,7 @@ Before run the code, first need to prepare the training data in jsonl format. Fo
 
 Then run the supervised finetune script.
 
-```bash
+```shell
 bash finetune.sh
 ```
 

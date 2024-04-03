@@ -1,4 +1,6 @@
 #!/bin/bash
+# Experimental environment: 8 * A100
+
 # output_dir is by date time
 echo $(date +%Y%m%d-%H%M)
 accelerate launch \
@@ -7,8 +9,8 @@ accelerate launch \
     --preprocessing_num_workers 20 \
     --train_file ./example.jsonl \
     --block_size 8192 \
-    --tokenizer_name tokenizer_name_or_path \
-    --model_name_or_path  model_name_or_path \
+    --tokenizer_name Langboat/Mengzi3-13B-Base \
+    --model_name_or_path  Langboat/Mengzi3-13B-Base \
     --weight_decay 0.0 \
     --lr_scheduler_type cosine \
     --learning_rate 3e-6 \
