@@ -118,6 +118,12 @@ Then run the supervised finetune script.
 bash finetune.sh
 ```
 
+# 声明/Disclaimer
+
+我们在此声明，我们的开发团队并未基于 Mengzi 3 模型开发任何应用，无论是在 iOS、Android、网页或任何其他平台。我们按“原样”的形式提供服务，不作任何形式的保证，我们不保证服务将满足您的要求。在不限制这一点的情况下，我们明确声明不提供关于服务的所有明示、默示或法定保证，包括但不限于对适销性、特定用途之适用性、所有权、安全性、准确性和不侵权的任何保证。我们强烈呼吁所有使用者，不要利用 Mengzi 3 模型进行任何危害国家社会安全或违法或侵犯他人合法权益的活动。另外，我们也要求使用者不要将 Mengzi 3 模型用于未经适当安全审查和备案的互联网服务。我们希望所有的使用者都能遵守这个原则，确保科技的发展能在规范和合法的环境下进行。 我们已经尽我们所能，来确保模型训练过程中使用的数据的合规性。然而，尽管我们已经做出了巨大的努力，但由于模型和数据的复杂性，仍有可能存在一些无法预见的问题。因此，如果由于使用 Mengzi 3 开源模型而导致的任何问题，包括但不限于数据安全问题、公共舆论风险，或模型被误导、滥用、传播或不当利用所带来的任何风险和问题，我们将不承担任何责任。对于因您使用从服务获取的文件、信息、内容或其他材料而造成的任何损失，您应承担全部责任和风险。
+
+We hereby declare that our team has not developed any applications based on Mengzi 3 models, not on iOS, Android, the web, or any other platform. We provide our service “as is” without warranty of any kind. We do not warrant that the service will meet your requirements. Without limiting this, we expressly disclaim all warranties, whether express, implied or statutory, regarding the service including without limitation any warranty of merchantability, fitness for a particular purpose, title, security, accuracy and non-infringement. We strongly call on all users not to use Mengzi 3 models for any activities that harm national / social security or violate the law or violate the legitimate rights and interests of others. Also, we ask users not to use Mengzi 3 models for Internet services that have not undergone appropriate security reviews and filings. We hope that all users can abide by this principle and ensure that the development of technology proceeds in a regulated and legal environment. We have done our best to ensure the compliance of the data used in the model training process. However, despite our considerable efforts, there may still be some unforeseeable issues due to the complexity of the model and data. Therefore, if any problems arise due to the use of Mengzi 3 open-source models, including but not limited to data security issues, public opinion risks, or any risks and problems brought about by the model being misled, abused, spread or improperly exploited, we will not assume any responsibility. You shall assume full responsibility and risk of loss resulting from your use of files, information, content or other material obtained from the service.
+
 # 协议/License Agreement
 
 Mengzi3-13B-Base依照Apache 2.0协议开源，对学术研究完全开放，同时支持免费商用。如需申请商业许可证，请[联系我们](https://www.langboat.com/form?p=3)，其他商务合作请联系[bd@langboat.com](mailto:bd@langboat.com)。
