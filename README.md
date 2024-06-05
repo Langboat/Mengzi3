@@ -14,17 +14,18 @@ Mengzi3
 
 # 模型介绍/Introduction
 
-本次开源Mengzi3 13B系列模型，模型的地址如下:
+本次开源Mengzi3 8B/13B系列模型，模型的地址如下:
 
-The address of the open source Mengzi3 13B series model is as follows:
+The address of the open source Mengzi3 8B/13B series model is as follows:
 
-|    |                                                                                                                                   Mengzi3-13B-Base                                                                                                                                   | Mengzi3-13B-Chat |
-| :-: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------: |
-| 13B | [🤗](https://huggingface.co/Langboat/Mengzi3-13B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-13B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-13B-Base) |     敬请期待     |
+|    |                                                                                                                                                       Base                                                                                                                                                       |   Chat   |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
+| 8B |   **Mengzi3-8B-Base**([🤗](https://huggingface.co/Langboat/Mengzi3-8B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-8B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-8B-Base))   | 敬请期待 |
+| 13B | **Mengzi3-13B-Base**([🤗](https://huggingface.co/Langboat/Mengzi3-13B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-13B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-13B-Base)) | 敬请期待 |
 
-Mengzi3-13B模型基于Llama架构，语料精选自网页、百科、社交、媒体、新闻，以及高质量的开源数据集。通过在万亿tokens上进行多语言语料的继续训练，模型的中文能力突出并且兼顾多语言能力。
+Mengzi3 8B/13B模型基于Llama架构，语料精选自网页、百科、社交、媒体、新闻，以及高质量的开源数据集。通过在万亿tokens上进行多语言语料的继续训练，模型的中文能力突出并且兼顾多语言能力。
 
-Mengzi3-13B is based on the Llama architecture, and the corpus is selected from web pages, encyclopedias, social networking, media, news, and high-quality open source data sets. By continuing to train multilingual corpus on trillions of tokens, the model has outstanding Chinese capabilities and takes into account multilingual capabilities.
+Mengzi3 8B/13B is based on the Llama architecture, and the corpus is selected from web pages, encyclopedias, social networking, media, news, and high-quality open source data sets. By continuing to train multilingual corpus on trillions of tokens, the model has outstanding Chinese capabilities and takes into account multilingual capabilities.
 
 # 快速开始/Quickstart
 
