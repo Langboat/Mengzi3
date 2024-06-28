@@ -22,6 +22,7 @@ The address of the open source Mengzi3 8B/13B series model is as follows:
 | :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------: |
 | 8B |   **Mengzi3-8B-Base**([🤗](https://huggingface.co/Langboat/Mengzi3-8B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-8B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-8B-Base))   | 敬请期待 |
 | 13B | **Mengzi3-13B-Base**([🤗](https://huggingface.co/Langboat/Mengzi3-13B-Base) / [🤖](https://modelscope.cn/organization/Langboat/Mengzi3-13B-Base) / [MindSpore](https://gitee.com/mindspore/mindformers/blob/r1.0/research/mengzi3/mengzi3.md) / [Wisemodel](https://wisemodel.cn/models/Langboat/Mengzi3-13B-Base)) | 敬请期待 |
+| 13B |                                                                                                                                      **Mengzi3.5-13B-Base (即将更新)**                                                                                                                                      | 敬请期待 |
 
 Mengzi3 8B/13B模型基于Llama架构，语料精选自网页、百科、社交、媒体、新闻，以及高质量的开源数据集。通过在万亿tokens上进行多语言语料的继续训练，模型的中文能力突出并且兼顾多语言能力。
 
@@ -69,18 +70,19 @@ Mengzi3-13B-Base在各项基准测试中与同等参数量大语言模型相比�
 
 Mengzi3-13B-Base leads in language proficiency and is at the forefront in math and programming proficiency compared to the equivalent large language model in various benchmark tests.
 
-|                            |          MMLU          |          CMMLU          |          OCNLI          | GSM8K | HumanEval |
-| :------------------------: | :---------------------: | :---------------------: | :---------------------: | :---: | :-------: |
-|     Baichuan2-13B-Base     |          0.530          |          0.489          |          0.433          | 0.528 |   0.171   |
-|          Qwen-14B          |          0.589          |          0.539          |          0.550          | 0.613 |   0.323   |
-|      ChatGLM3-6B-base      |          0.551          |          0.495          |          0.754          | 0.723 |     -     |
-|       InternLM2-20B       |          0.610          |          0.538          |          0.650          | 0.761 |   0.488   |
-|      Skywork-13B-base      |          0.557          |          0.524          |          0.426          | 0.558 |     -     |
-|       LingoWhale-8B       |          0.541          |          0.495          |          0.352          | 0.550 |   0.329   |
-|        DeepSeek-7B        |          0.436          |          0.424          |          0.356          | 0.174 |   0.262   |
-|   DeepSeek-MoE-16B-base   |          0.423          |          0.388          |          0.342          | 0.188 |   0.268   |
-|       MindSource-7B       |          0.498          |          0.425          |          0.528          |   -   |     -     |
-| **Mengzi3-13B-Base** | **0.651 (+6.7%)** | **0.588 (+9.1%)** | **0.776 (+2.9%)** | 0.631 |   0.287   |
+|                            |        MMLU        |       CMMLU       |          OCNLI          | GSM8K |     HumanEval     |
+| :------------------------: | :----------------: | :----------------: | :---------------------: | :---: | :---------------: |
+|     Baichuan2-13B-Base     |       0.530       |       0.489       |          0.433          | 0.528 |       0.171       |
+|          Qwen-14B          |       0.589       |       0.539       |          0.550          | 0.613 |       0.323       |
+|      ChatGLM3-6B-base      |       0.551       |       0.495       |          0.754          | 0.723 |         -         |
+|       InternLM2-20B       |       0.610       |       0.538       |          0.650          | 0.761 |       0.488       |
+|      Skywork-13B-base      |       0.557       |       0.524       |          0.426          | 0.558 |         -         |
+|       LingoWhale-8B       |       0.541       |       0.495       |          0.352          | 0.550 |       0.329       |
+|        DeepSeek-7B        |       0.436       |       0.424       |          0.356          | 0.174 |       0.262       |
+|   DeepSeek-MoE-16B-base   |       0.423       |       0.388       |          0.342          | 0.188 |       0.268       |
+|       MindSource-7B       |       0.498       |       0.425       |          0.528          |   -   |         -         |
+| **Mengzi3-13B-Base** |   0.651 (+6.7%)   |   0.588 (+9.1%)   | **0.776 (+2.9%)** | 0.631 |       0.287       |
+|  **Mengzi3.5-13B-Base**  | **0.776(+27.2%)** | **0.813(+50.8%)** |            -            |   -   | **0.532(+9.0%)** |
 
 > 以上结果基于5-shot，MMLU/CMMLU/OCNLI结果来自[FlagEval](https://flageval.baai.ac.cn/)
 >
